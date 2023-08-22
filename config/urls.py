@@ -4,5 +4,6 @@ from django.urls import (
 )
 
 urlpatterns = [
-    path("", include("apps.core.urls")),
+    
+    path("", include("apps.restapi.urls")),
 ]
